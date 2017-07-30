@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react'
+import PropTypes from 'prop-types'
+
+
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = (${2:props}) => ${3:(
+  ${4:<div>${0}</div>}
+)}
+
+
+export default ${1}
+
+]]></content>
+    <tabTrigger>rsfc</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>React: stateless functional component</description>
+</snippet>
