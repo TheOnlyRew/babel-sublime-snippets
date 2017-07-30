@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1}: React.PropTypes.objectOf(${2:type})${3:.isRequired}$0
+PropTypes.objectOf(${1:type})${2:.isRequired},$0
 ]]></content>
     <tabTrigger>ptof</tabTrigger>
     <scope>source.js</scope>
