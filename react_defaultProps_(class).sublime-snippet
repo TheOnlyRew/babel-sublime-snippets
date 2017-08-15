@@ -5,6 +5,6 @@ static defaultProps = {
 }
 ]]></content>
     <tabTrigger>dp</tabTrigger>
-    <scope>source.js meta.class.js -(meta meta)</scope>
+    <scope>source.js meta.class.js</scope>
     <description>React: defaultProps = { ... }</description>
 </snippet>
